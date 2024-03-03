@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #23212b;
+}
+
+.nav {
+    margin: 15px;
+    padding: 15px;
+}
+
+.nav ul {
+
+    display: flex;
+    justify-content: right;
+    gap: 2%;
+
+}
+
+.nav ul li {
+    font-size: 1.3rem;
+    list-style: none;
+
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.container {
+    height: auto;
+    /* background-color: aqua; */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/cd2.jpg); */
+    color: white;
+    display: flex;
+    position: relative;
+    background-size: 100%;
+    margin: 7% 0;
+}
+
+.pic1 {
+    background: url(images/vishal.jpg);
+    width: 350px;
+    height: 370px;
+    margin: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+    cursor: pointer;
+    /* filter: drop-shadow(15px 15px 40px rgba(0, 0, 0, 0.9)); */
+    opacity: 90%;
+    box-shadow: inset 29px 29px 58px #111015,
+        inset -29px -29px 58px #24222c;
+    border-radius: 350px;
+}
+
+
+
+.myinfo {
+    width: 50%;
+    padding: 30px;
+    margin: 8%;
+
+}
+
+.myinfo h2 {
+    justify-self: center;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.myinfo p {
+    font-size: 1.4rem;
+    word-wrap: break-word;
+}
+
+.personal-info {
+    height: auto;
+    color: white;
+    display: flex;
+}
+
+.info p {
+    font-size: 1.4rem;
+    word-wrap: break-word;
+}
+
+.info {
+    float: right;
+    width: 50%;
+    padding: 40px;
+}
+
+.info h1 {
+    justify-self: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.cv-btn {
+    border-radius: 57px;
+    background: #23212b;
+    box-shadow: inset 29px 29px 58px #111015,
+        inset -29px -29px 58px #353241;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+
+    color: white;
+}
+
+.picture {
+    margin: 10px 100px;
+    position: relative;
+    background: url(images/vishal.jpg);
+    width: 350px;
+    height: 400px;
+    background-size: 100%;
+    cursor: pointer;
+    filter: drop-shadow(15px 15px 40px rgba(0, 0, 0, 0.9));
+    opacity: 90%;
+    background-repeat: no-repeat;
+    box-shadow: inset 29px 29px 58px #111015,
+        inset -29px -29px 58px #24222c;
+    border-radius: 50px;
+}
+
+.skills {
+    height: 600px;
+    background-color: #1a1a1a;
+    color: white;
+    width: 35%;
+    padding: 40px;
+    height: auto;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.progress {
+    margin: 25px 25px;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 13px;
+}
+
+.title h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.barline {
+    height: 7px;
+    background: #c8d6e5;
+    border-radius: 20px;
+}
+
+.countbar {
+    height: 7px;
+    /* background: #2f2e30; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+}
+
+.countbar h3 {
+    position: absolute;
+    right: -19px;
+    top: -35px;
+    background: #34495e;
+    padding: 4px 6px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.countbar h3::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 11px;
+    height: 11px;
+    background: #34495e;
+    transform: rotate(45deg) translateX(-60%);
+}
+
+.third {
+    display: flex;
+
+}
+
+
+
+
+.about {
+    padding: 10px;
+    height: 700px;
+    background-color: #23212b;
+    color: white;
+    width: 65%;
+    margin: auto;
+    max-width: 30%;
+    min-width: 30%;
+    border-radius: 57px;
+    background: #23212b;
+    box-shadow: inset 29px 29px 58px #111015,
+        inset -29px -29px 58px #353241;
+}
+
+.about h1 {
+    display: flex;
+    margin: 4% auto;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+
+label {
+    display: block;
+    margin: auto;
+    padding: 1vh;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    display: block;
+    margin: 3% auto;
+    width: 85%;
+    height: 8vh;
+    color: white;
+    padding: 7px;
+    max-height: 30px;
+    border-radius: 22px;
+    background-color: #23212b;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 5% auto;
+    width: 30%;
+    height: 7vh;
+    background-color: #120A19;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 57px;
+    background: #23212b;
+    box-shadow: inset 29px 29px 58px #111015,
+        inset -29px -29px 58px #353241;
+}
+
+textarea {
+    display: block;
+    margin: 2% auto 0;
+    width: 85%;
+    height: 17vh;
+    padding: 5px;
+    max-height: 165px;
+    border-radius: 5px;
+    border: solid 2px #120A19;
+    font-family: sans-serif;
+    background-color: #23212b;
+    color: white;
+}
+
+input:hover {
+    transform: scale(1.05);
+}
+
+.social {
+    background-color: cyan;
+    width: 100%;
+    height: 400px;
+
+}
+
+.social ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social ul li {
+    margin: 50px;
+    list-style: none;
+}
+
+.social ul li a {
+    font-size: 2rem;
+
+    text-decoration: none;
+}
